@@ -2095,7 +2095,7 @@ input, select, textarea {
 				#nav ul li a.active {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					color: #fff;
+					color: #005BAC;
 				}
 
 					#nav ul li a.active span:before {
