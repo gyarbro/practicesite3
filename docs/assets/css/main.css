@@ -33,21 +33,6 @@ body {
 	line-height: 1;
 }
 
-.custom-bullets {
-  list-style-position: inside;
-  padding-left: 0;
-  text-align: center;
-}
-
-.custom-bullets li {
-  text-align: left;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5px; /* Space after bullet */
-}
-
-
 ol, ul {
 	list-style: none;
 }
@@ -1770,14 +1755,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 96x;
-			height: 96px;
+			width: 60px;
+			height: 60px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 96px;
-				height: 96px;
+				width: 60px;
+				height: 60px;
 			}
 
 		.image.fit {
@@ -1794,28 +1779,6 @@ input, select, textarea {
 		  object-fit: cover;
 		  display: block;
 		  border-radius: 8px;
-		}
-
-		.image.fit .overlay {
-		  position: absolute;
-		  top: 0;
-		  left: 0;
-		  width: 100%;
-		  height: 100%;
-		  background: rgba(0, 0, 0, 0.5);
-		  color: white;
-		  display: flex;
-		  align-items: center;
-		  justify-content: center;
-		  text-align: center;
-		  opacity: 0;
-		  transition: opacity 0.3s ease;
-		  padding: 1em;
-		  border-radius: 8px;
-		}
-
-		.image.fit:hover .overlay {
-		  opacity: 1;
 		}
 
 		.image.featured {
@@ -1850,23 +1813,36 @@ input, select, textarea {
 
 /* List */
 
-	ul {
-		list-style: disc;
-		padding-left: 1em;
-	}
+.centered-list {
+  text-align: center;
+}
 
-		ul li {
-			padding-left: 0.5em;
-		}
+.centered-list ul {
+  list-style: disc inside;
+  display: inline-block;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+}
 
-	ol {
-		list-style: decimal;
-		padding-left: 1.25em;
-	}
+.centered-list ul li {
+  padding-left: 5px;
+  margin-bottom: 0.5em;
+}
 
-		ol li {
-			padding-left: 0.25em;
-		}
+.centered-list ol {
+  list-style: decimal inside;
+  display: inline-block;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+.centered-list ol li {
+  padding-left: 5px;
+  margin-bottom: 0.5em;
+}
+
 
 /* Icons */
 
