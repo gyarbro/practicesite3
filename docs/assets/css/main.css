@@ -1817,35 +1817,35 @@ input, select, textarea {
 
 /* List */
 
-.centered-list {
-  text-align: center;
-}
+	.centered-list {
+	  text-align: center;
+	}
 
-.centered-list ul {
-  list-style: disc inside;
-  display: inline-block;
-  padding-left: 0;
-  margin-left: 0;
-  text-align: left;
-}
+	.centered-list ul {
+	  list-style: disc inside;
+	  display: inline-block;
+	  padding-left: 0;
+	  margin-left: 0;
+	  text-align: left;
+	}
 
-.centered-list ul li {
-  padding-left: 5px;
-  margin-bottom: 0.5em;
-}
+	.centered-list ul li {
+	  padding-left: 5px;
+	  margin-bottom: 0.5em;
+	}
 
-.centered-list ol {
-  list-style: decimal inside;
-  display: inline-block;
-  padding-left: 0;
-  margin-left: 0;
-  text-align: left;
-}
+	.centered-list ol {
+	  list-style: decimal inside;
+	  display: inline-block;
+	  padding-left: 0;
+	  margin-left: 0;
+	  text-align: left;
+	}
 
-.centered-list ol li {
-  padding-left: 5px;
-  margin-bottom: 0.5em;
-}
+	.centered-list ol li {
+	  padding-left: 5px;
+	  margin-bottom: 0.5em;
+	}
 
 
 /* Icons */
@@ -1971,7 +1971,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		background: #CBAACB;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2016,7 +2016,7 @@ input, select, textarea {
 			}
 
 				#header .icons a:hover {
-					color: #5C5470;;
+					color: #5C5470;
 				}
 
 	#logo {
