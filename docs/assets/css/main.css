@@ -152,6 +152,11 @@ input, select, textarea {
 				color:inherit;
 				text-shadow: 0.5px 0.5px 1px #000000
 		}
+		
+		p.left {
+				color:inherit
+				text-align: left
+		}
 
 	header {
 		margin: 0 0 2em 0;
