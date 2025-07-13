@@ -179,7 +179,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #5c5470;
+			color: #ffadbc;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -2012,7 +2012,7 @@ input, select, textarea {
 			}
 
 				#header .icons a:hover {
-					color: #5c5470;
+					color: #ffadbc;
 				}
 
 	#logo {
