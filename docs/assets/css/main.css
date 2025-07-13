@@ -1886,7 +1886,7 @@ input, select, textarea {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
 			color: #fff;
-			background:#CBAACB;
+			background:#CBAACB ("images/overlay.png");
 		}
 
 		table thead {
@@ -1967,7 +1967,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #CBAACB;
+		background: #CBAACB url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2059,7 +2059,7 @@ input, select, textarea {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
 				color: #5c5470;
-				background-color: #cbaacb;
+				background-color: #cbaacb url("images/overlay.png");
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2385,7 +2385,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #CBAACB url("images/overlay.png");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
