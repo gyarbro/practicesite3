@@ -2010,7 +2010,7 @@ input, select, textarea {
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color:  border-radius: 8px;;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2091,7 +2091,7 @@ input, select, textarea {
 					}
 
 				#nav ul li a.active {
-					background: #a974bf
+					background: #a974bf;
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
 				}
