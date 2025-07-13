@@ -150,12 +150,12 @@ input, select, textarea {
 	
 		p.alt {
 				color:inherit;
-				text-shadow: 0.5px 0.5px 1px #000000
+				text-shadow: 1px 1px 2px #000000;
 		}
 		
 		p.left {
 				color:inherit
-				text-align: left
+				text-align: left;
 		}
 
 	header {
