@@ -149,10 +149,10 @@ input, select, textarea {
 	}
 	
 		p.alt {
-				color:#888;
-				text-shadow: 1px 1px 2px #000000
+				color:inherit;
+				text-shadow: 0.5px 0.5px 1px #000000
 		}
-		
+
 	header {
 		margin: 0 0 2em 0;
 	}
