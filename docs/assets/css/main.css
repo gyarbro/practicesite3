@@ -144,6 +144,15 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
+	p {
+		font size: 1em;
+	}
+	
+		p.alt {
+				color:#888;
+				text-shadow: 1px 1px 2px #000000
+		}
+		
 	header {
 		margin: 0 0 2em 0;
 	}
