@@ -2124,6 +2124,11 @@ input, select, textarea {
 					#nav ul li a.active span:before {
 						color: #d4b4dc;
 					}
+					
+				#nav * {
+					background: none;
+					color: inherit;
+				}
 
 /* Footer */
 
