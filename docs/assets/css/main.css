@@ -1798,6 +1798,7 @@ input, select, textarea {
 		  object-fit: cover;      
 		  object-position: center top; 
 		  display: block;
+		  border-radius: 8px;
 		}
 
 		.image.left {
