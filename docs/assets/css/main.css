@@ -33,6 +33,21 @@ body {
 	line-height: 1;
 }
 
+.custom-bullets {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+}
+
+.custom-bullets li {
+  text-align: left;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px; /* Space after bullet */
+}
+
+
 ol, ul {
 	list-style: none;
 }
